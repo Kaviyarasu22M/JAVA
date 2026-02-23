@@ -109,3 +109,17 @@ DSA Preparation Journey
 </p>
 
 <h1>5.</h1>
+
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        int[] arr = {4, 2, 1, 5};
+        Arrays.sort(arr);
+        
+        for(int num : arr){
+            System.out.print(num + " ");
+        }
+    }
+}
+```
