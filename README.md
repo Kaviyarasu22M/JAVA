@@ -124,7 +124,7 @@ DSA Preparation Journey
     }
 }```
 
-<h2>Rotate the array by 1</h2>
+<h2>6.Rotate the array by 1</h2>
 
 ```class Solution {
     public void rotate(int[] arr) {
@@ -137,7 +137,7 @@ DSA Preparation Journey
     }
 }```
 
-<h1>Two pointer</h1>
+<h1>2.TWO POINTER</h1>
 
 <h2>1.Find pair with given sum</h2>
 
