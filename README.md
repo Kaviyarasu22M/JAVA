@@ -124,10 +124,9 @@ DSA Preparation Journey
     }
 }```
 
-<h2>6.Rotate the array by 1</h2>
+<h2>Rotate the array by 1</h2>
 
-```
-class Solution {
+```class Solution {
     public void rotate(int[] arr) {
        int n=arr.length;
        int last=arr[n-1];
@@ -137,8 +136,6 @@ class Solution {
        arr[0]=last;
     }
 }```
-
-<h2>7.Rotate the array by k</h2>
 
 <h1>Two pointer</h1>
 
