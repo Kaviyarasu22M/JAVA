@@ -24,7 +24,7 @@ DSA Preparation Journey
 <h2>Find the maximum and minimum element in array</h2>
 
 
-  class Solution {
+  ```class Solution {
     public ArrayList<Integer> getMinMax(int[] arr) {
        int min=Integer.MAX_VALUE;
        int max=Integer.MIN_VALUE;
@@ -42,12 +42,12 @@ DSA Preparation Journey
        return list;
     }
 }
-
+```
 
 
 <h2>2.Find third largest element in array</h2>
 
-<p>
+```
   class Solution {
     int thirdLargest(int arr[]) {
         // code here
@@ -60,11 +60,11 @@ DSA Preparation Journey
        return arr[num];
     }
 }
-</p>
+```
 
 <h2>3.Find missing number in array</h2>
 
-<p>
+```
   class Solution {
     int missingNum(int arr[]) {
        long n=arr.length+1;
@@ -77,11 +77,11 @@ DSA Preparation Journey
        return (int)total;
     }
 }
-</p>
+```
 
 <h2>4.Sort 0s, 1s and 2s</h2>
 
-<p>
+```
   class Solution {
     public void sort012(int[] arr) {
         // code here
@@ -106,20 +106,9 @@ DSA Preparation Journey
        }
     }
 }
-</p>
+```
 
 <h1>5.</h1>
 
 
-```java
-public class Main {
-    public static void main(String[] args) {
-        int[] arr = {4, 2, 1, 5};
-        Arrays.sort(arr);
-        
-        for(int num : arr){
-            System.out.print(num + " ");
-        }
-    }
-}
-```
+
