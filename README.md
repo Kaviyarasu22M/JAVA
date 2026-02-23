@@ -110,7 +110,8 @@ DSA Preparation Journey
 
 <h2>5.Check if two arrays are equal or not</h2>
 
-```class Solution {
+```
+class Solution {
     public static boolean checkEqual(int[] a, int[] b) {
         int alen=a.length;
         Arrays.sort(a);
@@ -126,7 +127,8 @@ DSA Preparation Journey
 ```
 <h2>6.Rotate the array by 1</h2>
 
-```class Solution {
+```
+class Solution {
     public void rotate(int[] arr) {
        int n=arr.length;
        int last=arr[n-1];
@@ -215,6 +217,7 @@ class Solution {
 }
 ```
 
+
 <h2>3.Union</h2>
 
 ```
@@ -233,6 +236,7 @@ class Solution {
     }
 }
 ```
+
 <h2>4.Intersection</h2>
 
 
