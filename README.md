@@ -127,8 +127,6 @@ DSA Preparation Journey
 <h2>6.Rotate the array by 1</h2>
 
 ```
-// // User function Template for Java
-
 class Solution {
     public void rotate(int[] arr) {
        int n=arr.length;
