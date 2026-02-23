@@ -140,8 +140,6 @@ DSA Preparation Journey
 
 <h2>7.Rotate k</h2>
 ```
-
-
 import java.util.*;
 class kthnumber{
     public static void main(String[] args){
@@ -155,7 +153,6 @@ class kthnumber{
 
         System.out.println(Arrays.toString(arr));
     }
-
     static void num(int[] arr,int s,int e){
         while(s<e){
             int temp=arr[s];
