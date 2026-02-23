@@ -215,11 +215,11 @@ class Solution {
        return false;
     }
 }
+
 ```
 
 
-<h2>3.Union</h2>
-
+<h2>UNION</h2>
 ```
 class Solution {
     public static ArrayList<Integer> findUnion(int[] a, int[] b) {
@@ -229,12 +229,15 @@ class Solution {
         for(int i=0;i<alen;i++){
             arr.add(a[i]);
         }
+        
         for(int i=0;i<blen;i++){
             arr.add(b[i]);
         }
+        
     return new ArrayList<>(arr);
     }
 }
+
 ```
 
 <h2>4.Intersection</h2>
