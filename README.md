@@ -8,7 +8,7 @@ DSA Preparation Journey
 
 <h2>1.Even or odd</h2>
 
-<p>
+```
   class Solution {
     static boolean isEven(int n) {
         if(n%2==0){
@@ -17,7 +17,7 @@ DSA Preparation Journey
     return false;
     }
 }
-</p>
+```
 
 <h1>Arrays</h1>
 <h2>Basic traversal</h2>
