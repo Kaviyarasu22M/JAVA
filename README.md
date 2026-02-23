@@ -167,6 +167,70 @@ class kthnumber{
 <h1>Two Pointer</h1>
 <h2>Find pair with given sum</h2>
 
+```
+class Solution {
+    boolean twoSum(int arr[], int target) {
+       int n=arr.length;
+       Arrays.sort(arr);
+       int s=0;
+       int e=n-1;
+       while(s<e){
+           int sum=arr[s]+arr[e];
+           if(sum==target){
+               return true;
+           }else if(sum<target){
+               s++;
+           }else if(sum>target){
+               e--;
+           }
+       }
+       return  false;
+    }
+}
+```
+
+<h2>2.3 sum gfg</h2>
+```
+class Solution {
+    public boolean hasTripletSum(int arr[], int target) {
+       int n=arr.length;
+       Arrays.sort(arr);
+       for(int i=0;i<n-1;i++){
+           int left=i+1;
+           int right=n-1;
+           while(left<right){
+               int sum=arr[i]+arr[left]+arr[right];
+               if(sum==target){
+                   return true;
+               }else if(sum<target){
+                   left++;
+               }else if(sum>target){
+                   right--;
+               }
+           }
+       }
+       return false;
+    }
+}
+```
+<h2>3.Union</h2>
+```
+class Solution {
+    public static ArrayList<Integer> findUnion(int[] a, int[] b) {
+        HashSet<Integer> arr=new HashSet<>();
+        int alen=a.length;
+        int blen=b.length;
+        for(int i=0;i<alen;i++){
+            arr.add(a[i]);
+        }
+        for(int i=0;i<blen;i++){
+            arr.add(b[i]);
+        }
+    return new ArrayList<>(arr);
+    }
+}
+```
+<h2>4.Intersection</h2>
 
 
 
