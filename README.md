@@ -124,19 +124,6 @@ DSA Preparation Journey
     }
 }```
 
-<h2>6.Rotate the array by 1</h2>
-
-```class Solution {
-    public void rotate(int[] arr) {
-       int n=arr.length;
-       int last=arr[n-1];
-       for(int i=n-1;i>0;i--){
-           arr[i]=arr[i-1];
-       }
-       arr[0]=last;
-    }
-}```
-
 
 
 
