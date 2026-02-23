@@ -150,7 +150,6 @@ class kthnumber{
         num(arr,0,n-1);
         num(arr,0,k-1);
         num(arr,k,n-1);
-
         System.out.println(Arrays.toString(arr));
     }
     static void num(int[] arr,int s,int e){
@@ -164,6 +163,7 @@ class kthnumber{
     }
 }
 ```
+
 <h1>Two Pointer</h1>
 <h2>Find pair with given sum</h2>
 
