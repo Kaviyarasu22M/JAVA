@@ -195,6 +195,7 @@ class Solution {
     public boolean hasTripletSum(int arr[], int target) {
        int n=arr.length;
        Arrays.sort(arr);
+       
        for(int i=0;i<n-1;i++){
            int left=i+1;
            int right=n-1;
@@ -213,7 +214,9 @@ class Solution {
     }
 }
 ```
+
 <h2>3.Union</h2>
+
 ```
 class Solution {
     public static ArrayList<Integer> findUnion(int[] a, int[] b) {
