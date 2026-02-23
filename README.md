@@ -23,7 +23,7 @@ DSA Preparation Journey
 <h2>Basic traversal</h2>
 <h2>Find the maximum and minimum element in array</h2>
 
-<p>
+
   class Solution {
     public ArrayList<Integer> getMinMax(int[] arr) {
        int min=Integer.MAX_VALUE;
@@ -43,7 +43,7 @@ DSA Preparation Journey
     }
 }
 
-</p>
+
 
 <h2>2.Find third largest element in array</h2>
 
