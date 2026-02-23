@@ -137,9 +137,6 @@ DSA Preparation Journey
     }
 }```
 
-<h1>2.TWO POINTER</h1>
-
-<h2>1.Find pair with given sum</h2>
 
 
 
