@@ -137,8 +137,32 @@ DSA Preparation Journey
     }
 }
 ```
+<h2>Rotate K</h2>
 
-
+```
+import java.util.*;
+class kthnumber{
+    public static void main(String[] args){
+        int[] arr={1,2,3,4,5,6,7};
+        int k=3;
+        int n=arr.length;
+        k=k%n;
+        num(arr,0,n-1);
+        num(arr,0,k-1);
+        num(arr,k,n-1);
+        System.out.println(Arrays.toString(arr));
+    }
+    static void num(int[] arr,int s,int e){
+        while(s<e){
+            int temp=arr[s];
+            arr[s]=arr[e];
+            arr[e]=temp;
+            s++;
+            e--;
+        }
+    }
+}
+```
 
 <h1>Two Pointer</h1>
 <h2>Find pair with given sum</h2>
