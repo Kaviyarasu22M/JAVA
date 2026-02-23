@@ -108,7 +108,44 @@ DSA Preparation Journey
 }
 ```
 
-<h1>5.</h1>
+<h2>5.Check if two arrays are equal or not</h2>
+
+```class Solution {
+    public static boolean checkEqual(int[] a, int[] b) {
+        int alen=a.length;
+        Arrays.sort(a);
+        Arrays.sort(b);
+        for(int i=0;i<alen;i++){
+            if(a[i]!=b[i]){
+                return false;
+            }
+        }
+        return true;
+    }
+}```
+
+<h2>6.Rotate the array by 1</h2>
+
+```
+// // User function Template for Java
+
+class Solution {
+    public void rotate(int[] arr) {
+       int n=arr.length;
+       int last=arr[n-1];
+       for(int i=n-1;i>0;i--){
+           arr[i]=arr[i-1];
+       }
+       arr[0]=last;
+    }
+}```
+
+<h2>7.Rotate the array by k</h2>
+
+<h1>Two pointer</h1>
+
+<h2>1.Find pair with given sum</h2>
+
 
 
 
