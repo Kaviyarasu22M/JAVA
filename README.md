@@ -243,6 +243,53 @@ class Solution {
 <h2>4.Intersection</h2>
 
 
+<h2>Trapping rain water</h2>
 
+```
+
+public class Solution {
+    public int trap(int[] h) {
+        int l = 0, r = h.length - 1, lmax = Integer.MIN_VALUE, rmax = Integer.MIN_VALUE, ans = 0;
+        while (l < r) {
+        lmax = Math.max(lmax, h[l]);
+        rmax = Math.max(rmax, h[r]);
+        ans += (lmax < rmax) ? lmax - h[l++] : rmax - h[r--];
+        }
+        return ans;
+    }
+}
+
+```
+
+```
+class Solution {
+    public int trap(int[] height) {
+       int n=height.length;
+       int max=-1;
+       int[] left=new int[n]; 
+       int[] right=new int[n]; 
+       for(int i=0;i<n;i++){
+        if(height[i]>max){
+            max=height[i];
+        }
+        left[i]=max;
+       }
+       max=-1;
+       for(int i=n-1;i>=0;i--){
+        if(height[i]>max){
+            max=height[i];
+        }
+        right[i]=max;
+       }
+       int total=0;
+       for(int i=0;i<n;i++){
+        total=total+Math.min(left[i],right[i])-height[i];
+       }
+       return total;
+    }
+}
+
+
+```
 
 
